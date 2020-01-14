@@ -1,7 +1,7 @@
-package com.wxm.wmall.user.service;
+package com.wxm.wmall.service;
 
-import com.wxm.wmall.user.bean.UmsMember;
-import com.wxm.wmall.user.bean.UmsMemberReceiveAddress;
+import com.wxm.wmall.bean.UmsMember;
+import com.wxm.wmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 

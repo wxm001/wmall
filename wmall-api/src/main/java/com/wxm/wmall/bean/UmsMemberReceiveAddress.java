@@ -1,4 +1,4 @@
-package com.wxm.wmall.user.bean;
+package com.wxm.wmall.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;

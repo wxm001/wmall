@@ -1,10 +1,10 @@
 package com.wxm.wmall.user.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.wxm.wmall.service.UserService;
 import com.wxm.wmall.bean.UmsMember;
 import com.wxm.wmall.bean.UmsMemberReceiveAddress;
-import org.springframework.beans.factory.annotation.Autowired;
+
+import com.wxm.wmall.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -19,7 +19,7 @@ import java.util.List;
 @Controller
 public class UserController {
 
-    @Autowired
+    @Reference
     UserService userService;
 
     @RequestMapping("index")

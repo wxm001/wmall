@@ -3,30 +3,24 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.wxm.wmall</groupId>
-	<artifactId>wmall-user</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>wmall-user</name>
-	<description>Demo project for Spring Boot</description>
-
 	<parent>
 		<groupId>com.wxm.wmall</groupId>
 		<artifactId>wmall-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
+		<relativePath/>
 	</parent>
+
+	<groupId>com.wxm.wmall</groupId>
+	<artifactId>wmall-user-service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>wmall-user-service</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>com.wxm.wmall</groupId>
-			<artifactId>wmall-api</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-
 		<dependency>
 			<groupId>com.wxm.wmall</groupId>
 			<artifactId>wmall-service-util</artifactId>
@@ -35,10 +29,9 @@
 
 		<dependency>
 			<groupId>com.wxm.wmall</groupId>
-			<artifactId>wmall-web-util</artifactId>
+			<artifactId>wmall-api</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -49,4 +42,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

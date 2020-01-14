@@ -1,13 +1,13 @@
 package com.wxm.wmall.user.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.wxm.wmall.bean.UmsMember;
 import com.wxm.wmall.bean.UmsMemberReceiveAddress;
 import com.wxm.wmall.service.UserService;
-
 import com.wxm.wmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.wxm.wmall.user.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 
@@ -18,6 +18,7 @@ import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
+
     @Autowired
     UserMapper userMapper;
     @Autowired
