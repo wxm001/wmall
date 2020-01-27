@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="fastdfs-client-java" />
+        <module name="wmall-api" />
+        <module name="wmall-common-util" />
+        <module name="wmall-manage-service" />
+        <module name="wmall-manage-web" />
+        <module name="wmall-manager-web" />
+        <module name="wmall-service-util" />
+        <module name="wmall-user" />
+        <module name="wmall-user-service" />
+        <module name="wmall-user-web" />
+        <module name="wmall-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="fastdfs-client-java" target="1.6" />
+      <module name="wmall-api" target="1.5" />
+      <module name="wmall-common-util" target="1.8" />
+      <module name="wmall-manage-service" target="1.8" />
+      <module name="wmall-manage-web" target="1.8" />
+      <module name="wmall-manager-service" target="1.8" />
+      <module name="wmall-manager-web" target="1.8" />
+      <module name="wmall-parent" target="1.8" />
+      <module name="wmall-service-util" target="1.8" />
+      <module name="wmall-user" target="1.8" />
+      <module name="wmall-user-service" target="1.8" />
+      <module name="wmall-user-web" target="1.8" />
+      <module name="wmall-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

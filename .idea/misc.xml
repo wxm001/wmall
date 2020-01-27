@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-user/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfs-client-java/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

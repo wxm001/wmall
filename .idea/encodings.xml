@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastdfs-client-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastdfs-client-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-manage-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-service-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-user-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-web-util" charset="UTF-8" />
+  </component>
+</project>
