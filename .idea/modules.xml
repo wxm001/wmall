@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/wmall.iml" filepath="$PROJECT_DIR$/.idea/wmall.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-api/wmall-api.iml" filepath="$PROJECT_DIR$/wmall-api/wmall-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-common-util/wmall-common-util.iml" filepath="$PROJECT_DIR$/wmall-common-util/wmall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmall-item-web/wmall-item-web.iml" filepath="$PROJECT_DIR$/wmall-item-web/wmall-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-manage-service/wmall-manage-service.iml" filepath="$PROJECT_DIR$/wmall-manage-service/wmall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-manage-web/wmall-manage-web.iml" filepath="$PROJECT_DIR$/wmall-manage-web/wmall-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-parent/wmall-parent.iml" filepath="$PROJECT_DIR$/wmall-parent/wmall-parent.iml" />

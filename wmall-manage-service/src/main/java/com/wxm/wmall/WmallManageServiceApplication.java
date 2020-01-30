@@ -1,4 +1,4 @@
-package com.wxm.wmall.manage;
+package com.wxm.wmall;
 
 
 import org.springframework.boot.SpringApplication;

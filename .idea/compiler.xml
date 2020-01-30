@@ -10,6 +10,7 @@
         <module name="fastdfs-client-java" />
         <module name="wmall-api" />
         <module name="wmall-common-util" />
+        <module name="wmall-item-web" />
         <module name="wmall-manage-service" />
         <module name="wmall-manage-web" />
         <module name="wmall-manager-web" />
@@ -25,6 +26,7 @@
       <module name="fastdfs-client-java" target="1.6" />
       <module name="wmall-api" target="1.5" />
       <module name="wmall-common-util" target="1.8" />
+      <module name="wmall-item-web" target="1.8" />
       <module name="wmall-manage-service" target="1.8" />
       <module name="wmall-manage-web" target="1.8" />
       <module name="wmall-manager-service" target="1.8" />
