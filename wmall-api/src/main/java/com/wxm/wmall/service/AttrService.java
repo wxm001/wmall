@@ -5,6 +5,7 @@ import com.wxm.wmall.bean.PmsBaseAttrValue;
 import com.wxm.wmall.bean.PmsBaseSaleAttr;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author wxm
@@ -18,4 +19,6 @@ public interface AttrService {
     List<PmsBaseAttrValue> getAttrValueList(String attrId);
 
     List<PmsBaseSaleAttr> baseSaleAttrList();
+
+    List<PmsBaseAttrInfo> getAttrValueListByValueId(Set<String> valueSet);
 }

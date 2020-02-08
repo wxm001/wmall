@@ -14,6 +14,7 @@ import tk.mybatis.mapper.entity.Example;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author wxm
@@ -97,5 +98,14 @@ public class AttrServiceImpl implements AttrService{
     public List<PmsBaseSaleAttr> baseSaleAttrList() {
         List<PmsBaseSaleAttr> pmsBaseSaleAttrs = pmsBaseSaleAttrMapper.selectAll();
         return pmsBaseSaleAttrs;
+    }
+
+    @Override
+    public List<PmsBaseAttrInfo> getAttrValueListByValueId(Set<String> valueSet) {
+
+        String valueIdStr = StringUtils.join(valueSet, ",");
+        List<PmsBaseAttrInfo> pmsBaseAttrInfos = pmsBaseAttrInfoMapper.selectAttrValueListByValueId(valueIdStr);
+        return pmsBaseAttrInfos;
+
     }
 }
