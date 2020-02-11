@@ -18,3 +18,6 @@ wmall-search-service 搜索服务的后台8074
 
 wmall-cart-web 购物车服务的前台8085
 wmall-cart-service 购物车服务的后台8075
+
+wmall-passport-web 用户认证中心8086
+wmall-user-service 用户服务的service层8070

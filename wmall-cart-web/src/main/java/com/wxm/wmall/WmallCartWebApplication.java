@@ -1,4 +1,4 @@
-package com.wxm.wmall.cart;
+package com.wxm.wmall;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
