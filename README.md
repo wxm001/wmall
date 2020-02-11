@@ -14,3 +14,7 @@ wmall-item-web 前台的商品详情展示 8083
 
 wmall-search-web 搜索服务的前台8084
 wmall-search-service 搜索服务的后台8074
+
+
+wmall-cart-web 购物车服务的前台8085
+wmall-cart-service 购物车服务的后台8075

@@ -9,11 +9,15 @@
         <module name="demo" />
         <module name="fastdfs-client-java" />
         <module name="wmall-api" />
+        <module name="wmall-cart-service" />
+        <module name="wmall-cart-web" />
         <module name="wmall-common-util" />
         <module name="wmall-item-web" />
         <module name="wmall-manage-service" />
         <module name="wmall-manage-web" />
         <module name="wmall-manager-web" />
+        <module name="wmall-search-service" />
+        <module name="wmall-search-web" />
         <module name="wmall-service-util" />
         <module name="wmall-user" />
         <module name="wmall-user-service" />
@@ -25,6 +29,8 @@
       <module name="demo" target="1.8" />
       <module name="fastdfs-client-java" target="1.6" />
       <module name="wmall-api" target="1.5" />
+      <module name="wmall-cart-service" target="1.8" />
+      <module name="wmall-cart-web" target="1.8" />
       <module name="wmall-common-util" target="1.8" />
       <module name="wmall-item-web" target="1.8" />
       <module name="wmall-manage-service" target="1.8" />
@@ -32,6 +38,8 @@
       <module name="wmall-manager-service" target="1.8" />
       <module name="wmall-manager-web" target="1.8" />
       <module name="wmall-parent" target="1.8" />
+      <module name="wmall-search-service" target="1.8" />
+      <module name="wmall-search-web" target="1.8" />
       <module name="wmall-service-util" target="1.8" />
       <module name="wmall-user" target="1.8" />
       <module name="wmall-user-service" target="1.8" />
