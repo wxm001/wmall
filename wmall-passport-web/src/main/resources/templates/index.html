@@ -75,7 +75,7 @@
 		
 	</body>
 	<script language="JavaScript">
-		
+
 			function submitLogin() {
 				var username = $("#username").val();
                 var password = $("#password").val();
@@ -83,13 +83,14 @@
                 var returnUrl = $("#ReturnUrl").val();
 
                 $.post("login",{username:username,password:password},function(token){
-                    alert(token);
-                    alert(returnUrl);
-					// 验证token是否为空或者异常
-					window.location.href=returnUrl+"?token="+token;
+                    if(token=="fail"){
+                        alert("用户名或密码错误");
+					}else {
+                        // 验证token是否为空或者异常
+                        window.location.href=returnUrl+"?token="+token;
+					}
 				});
             }
-
 			
 			var btn2=document.getElementsByClassName('btn2')[0];
 			var user=document.getElementsByClassName('user')[0];

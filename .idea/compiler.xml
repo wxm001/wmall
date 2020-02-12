@@ -16,6 +16,7 @@
         <module name="wmall-manage-service" />
         <module name="wmall-manage-web" />
         <module name="wmall-manager-web" />
+        <module name="wmall-passport-web" />
         <module name="wmall-search-service" />
         <module name="wmall-search-web" />
         <module name="wmall-service-util" />
@@ -38,6 +39,7 @@
       <module name="wmall-manager-service" target="1.8" />
       <module name="wmall-manager-web" target="1.8" />
       <module name="wmall-parent" target="1.8" />
+      <module name="wmall-passport-web" target="1.8" />
       <module name="wmall-search-service" target="1.8" />
       <module name="wmall-search-web" target="1.8" />
       <module name="wmall-service-util" target="1.8" />

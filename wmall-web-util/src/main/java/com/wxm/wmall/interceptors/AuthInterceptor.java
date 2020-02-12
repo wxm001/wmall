@@ -1,5 +1,6 @@
 package com.wxm.wmall.interceptors;
 
+import com.alibaba.fastjson.JSON;
 import com.wxm.wmall.annotations.LoginRequired;
 import com.wxm.wmall.util.CookieUtil;
 import com.wxm.wmall.util.HttpclientUtil;
@@ -11,6 +12,8 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.invoke.MethodHandle;
+import java.util.HashMap;
+import java.util.Map;
 
 @Component
 public class AuthInterceptor extends HandlerInterceptorAdapter {
@@ -42,8 +45,19 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
 
         // 调用认证中心进行验证
         String success = "fail";
-        if(StringUtils.isNotBlank(token)){
-            success  = HttpclientUtil.doGet("http://passport.wmall.com:8086/verify?token=" + token);
+        Map<String,String> successMap = new HashMap<>();
+        if(StringUtils.isNotBlank(token)) {
+            String ip = request.getHeader("x-forwarded-for");// 通过nginx转发的客户端ip
+            if (StringUtils.isBlank(ip)) {
+                ip = request.getRemoteAddr();// 从request中获取ip
+                if (StringUtils.isBlank(ip)) {
+                    ip = "127.0.0.1";
+                }
+            }
+            String successJson  = HttpclientUtil.doGet("http://passport.wmall.com:8086/verify?token=" + token+"&currentIp="+ip);
+            successMap = JSON.parseObject(successJson,Map.class);
+
+            success = successMap.get("status");
         }
 
         if (loginSuccess) {
@@ -56,21 +70,28 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
             }
 
             // 需要将token携带的用户信息写入
-            request.setAttribute("memberId", "1");
-            request.setAttribute("nickname", "nickname");
+            request.setAttribute("memberId", successMap.get("memberId"));
+            request.setAttribute("nickname", successMap.get("nickname"));
+            //验证通过，覆盖cookie中的token
+            if(StringUtils.isNotBlank(token)){
+                CookieUtil.setCookie(request,response,"oldToken",token,60*60*2,true);
+            }
+
         } else {
             // 没有登录也能用，但是必须验证
             if (success.equals("success")) {
                 // 需要将token携带的用户信息写入
-                request.setAttribute("memberId", "1");
-                request.setAttribute("nickname", "nickname");
+                request.setAttribute("memberId", successMap.get("memberId"));
+                request.setAttribute("nickname", successMap.get("nickname"));
+
+                //验证通过，覆盖cookie中的token
+                if(StringUtils.isNotBlank(token)){
+                    CookieUtil.setCookie(request,response,"oldToken",token,60*60*2,true);
+                }
             }
         }
 
-        //验证通过，覆盖cookie中的token
-        if(StringUtils.isNotBlank(token)){
-            CookieUtil.setCookie(request,response,"oldToken",token,60*60*2,true);
-        }
+
         return true;
     }
 }

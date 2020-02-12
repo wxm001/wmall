@@ -1,6 +1,7 @@
 package com.wxm.wmall.search.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.wxm.wmall.annotations.LoginRequired;
 import com.wxm.wmall.bean.*;
 import com.wxm.wmall.service.AttrService;
 import com.wxm.wmall.service.SearchService;
@@ -28,6 +29,7 @@ public class SearchController {
     AttrService attrService;
 
     @RequestMapping("index")
+    @LoginRequired(loginSuccess = false)
     public String index(){
         return "index";
     }

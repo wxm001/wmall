@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/wmall-manage-service/wmall-manage-service.iml" filepath="$PROJECT_DIR$/wmall-manage-service/wmall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-manage-web/wmall-manage-web.iml" filepath="$PROJECT_DIR$/wmall-manage-web/wmall-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-parent/wmall-parent.iml" filepath="$PROJECT_DIR$/wmall-parent/wmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmall-passport-web/wmall-passport-web.iml" filepath="$PROJECT_DIR$/wmall-passport-web/wmall-passport-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-search-service/wmall-search-service.iml" filepath="$PROJECT_DIR$/wmall-search-service/wmall-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-search-web/wmall-search-web.iml" filepath="$PROJECT_DIR$/wmall-search-web/wmall-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wmall-service-util/wmall-service-util.iml" filepath="$PROJECT_DIR$/wmall-service-util/wmall-service-util.iml" />

@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/wmall-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/wmall-cart-service/pom.xml" />
         <option value="$PROJECT_DIR$/wmall-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/wmall-passport-web/pom.xml" />
       </list>
     </option>
   </component>
