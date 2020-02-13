@@ -90,4 +90,14 @@ public class UserServiceImpl implements UserService {
 
         jedis.close();
     }
+
+    @Override
+    public UmsMember checkOauthUser(UmsMember umsCheck) {
+        return null;
+    }
+
+    @Override
+    public void addOauthUser(UmsMember umsMember) {
+
+    }
 }

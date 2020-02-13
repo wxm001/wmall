@@ -21,3 +21,6 @@ wmall-cart-service 购物车服务的后台8075
 
 wmall-passport-web 用户认证中心8086
 wmall-user-service 用户服务的service层8070
+
+wmall-order-web 订单服务前台8087
+wmall-order-service 订单服务的service层8077
