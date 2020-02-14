@@ -97,7 +97,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void addOauthUser(UmsMember umsMember) {
-
+    public UmsMember addOauthUser(UmsMember umsMember) {
+        return null;
     }
 }
