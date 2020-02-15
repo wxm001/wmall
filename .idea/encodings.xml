@@ -9,8 +9,11 @@
     <file url="file://$PROJECT_DIR$/wmall-item-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wmall-manage-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wmall-manage-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-order-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wmall-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wmall-passport-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wmall-payment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wmall-search-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wmall-search-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wmall-service-util" charset="UTF-8" />

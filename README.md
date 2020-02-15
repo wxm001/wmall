@@ -24,3 +24,5 @@ wmall-user-service 用户服务的service层8070
 
 wmall-order-web 订单服务前台8087
 wmall-order-service 订单服务的service层8077
+
+wmall-payment 支付服务与前台（对接支付宝）
